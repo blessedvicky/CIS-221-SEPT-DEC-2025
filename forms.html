@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head> <b>General Registration Form</b>
+        <title>forms</title>
+    </head>
+    <body>
+        <form action="" method="post">
+           <p>
+            <fieldset>
+                <legend>Login details</legend>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username"placeholder="e.g blessedvicky"><br/>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="blessedvicky.bv@gmail.com"><br/>
+                <label for="password">Password:</label>
+                <input type="password1" name="password"><br/>
+                <label for="password2">Confirm Password:</label>
+                <input type="password" name="password2" id="password2"><br/>
+            </fieldset>
+           </p> 
+           <p>
+            <fieldset>
+                <legend>Gender Section</legend>
+                <label for="male">Male:</label>
+                <input type="radio" id="male" name="gender" value="Male"><br/>
+                <label for="female">Female:</label>
+                <input  type="radio" id="female" name="gender" value="female"><br/>
+                <label for="other">Other:</label>
+                <input  type="radio" id="other" name="gender" value="other"><br/>
+            </fieldset>
+           </p>
+            
+                <b>Hobbies:</b><br/>
+                <input type="checkbox" id="reading" name="Hobbies" value="reading">
+                <label for="reading">Reading</label><br/>
+                <input type="checkbox" id="sports" name="Hobbies" value="sports">
+                <label for="sports" >Sports</label><br/>
+                <input type="checkbox" id="music" name="Hobbies" value="music">
+                <label for="music">Music</label><br/>
+                <br/><hr/>
+            <p>
+                <label for="country">Choose your country of origin:</label>
+                <select id="country" name="country">
+                    <option value="kemya">Kenya</option>
+                    <option value="uganda" >Uganda</option>
+                    <option value="tanzania" >Tanzania</option>
+                </select><br/>
+            </p>
+            <p>
+                <label for="comments">Please input your comments !!</label><br/>
+                <textarea id="comments" name="comments" rows="3" cols="30">Enter your comments here..</textarea>
+            </p>
+            <input type="submit" id="submit" value="Register">
+          
+        </form>
+    </body>
+</html>
